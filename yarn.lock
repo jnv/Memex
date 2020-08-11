@@ -5507,19 +5507,19 @@ fastparse@^1.1.1:
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.1.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
   integrity sha1-0eJkOzipTXWDtHkGDmxK/8lAcfg=
 
+fathom-web@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/fathom-web/-/fathom-web-1.1.2.tgz#c3c36251b22533eb6cc2d5947535611753ddf6dd"
+  integrity sha1-w8NiUbIlM+tswtWUdTVhF1Pd9t0=
+  dependencies:
+    wu "^2.1.0"
+
 fathom-web@^2.1.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/fathom-web/-/fathom-web-2.4.0.tgz#47c96ba0db963b2ad4d40f8040f765b6c7e0a35d"
   integrity sha512-mF+Cw0bzj6yhwHFIxnWoq8WNe1G29GMFpKQVgUrxcjOB0oEHKs0O0pkp8xNNdrFN0leyWy5Vo/4Xql713ifwzA==
   dependencies:
     jsdom "^11.2.0"
-    wu "^2.1.0"
-
-"fathom-web@git://github.com/Treora/fathom.git#npm-testable":
-  version "1.1.2"
-  resolved "git://github.com/Treora/fathom.git#913009da10176f525274d0530d974a61cb6c93f2"
-  dependencies:
-    babel-runtime "^6.22.0"
     wu "^2.1.0"
 
 faye-websocket@~0.11.0:
@@ -9605,11 +9605,12 @@ package-json@^4.0.0:
     registry-url "^3.0.3"
     semver "^5.1.0"
 
-"page-metadata-parser@git+https://github.com/Treora/page-metadata-parser.git#npm-testable":
-  version "0.6.0"
-  resolved "git+https://github.com/Treora/page-metadata-parser.git#07fe4ebfdee0b6b3197a41eb2b90fea8e3f07bf5"
+page-metadata-parser@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/page-metadata-parser/-/page-metadata-parser-0.6.1.tgz#892a9fd2fa61cd0d4d34edeb1ad32a06429f792c"
+  integrity sha1-iSqf0vphzQ1NNO3rGtMqBkKfeSw=
   dependencies:
-    fathom-web "git://github.com/Treora/fathom.git#npm-testable"
+    fathom-web "^1.1.2"
 
 pako@~1.0.2, pako@~1.0.5:
   version "1.0.6"

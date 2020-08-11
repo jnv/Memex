@@ -53,7 +53,7 @@
         "moment": "^2.18.1",
         "moment-timezone": "^0.5.14",
         "normalize-url": "^1.9.1",
-        "page-metadata-parser": "git+https://github.com/Treora/page-metadata-parser.git#npm-testable",
+        "page-metadata-parser": "0.6.1",
         "pdfjs-dist": "^1.8.492",
         "promise-limit": "^2.5.0",
         "prop-types": "^15.5.10",
