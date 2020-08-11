@@ -77,13 +77,13 @@ export default function({
             // }),
         )
     } else if (mode === 'production') {
-        plugins.push(
-            new SentryPlugin({
-                release: process.env.npm_package_version,
-                include: output.path,
-                dryRun: !shouldPackage,
-            }),
-        )
+        // plugins.push(
+        //     new SentryPlugin({
+        //         release: process.env.npm_package_version,
+        //         include: output.path,
+        //         dryRun: !shouldPackage,
+        //     }),
+        // )
     }
 
     // CI build doesn't need to use linting plugins
